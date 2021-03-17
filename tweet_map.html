@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_570dc3b9716149f8b2b811c5118fc866 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_570dc3b9716149f8b2b811c5118fc866" ></div>
+        
+</body>
+<script>    
+    
+            var map_570dc3b9716149f8b2b811c5118fc866 = L.map(
+                "map_570dc3b9716149f8b2b811c5118fc866",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    detectRetina: true,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4e8c760acc6043fd9f7ccaf9a5e26d2c = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+            var marker_52dff517e6eb4c6190da45c7d582ed3c = L.marker(
+                [35.7803977, -78.6390989],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_d2febcbb869c4a3ab5ccba26e361cea7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fb69a131e814f3fb14789c20c20fa24 = $(`<div id="html_3fb69a131e814f3fb14789c20c20fa24" style="width: 100.0%; height: 100.0%;">dododoiscoolnc: @Illicit_Nature no it&#39;s the college basketball tournament in March lmao</div>`)[0];
+            popup_d2febcbb869c4a3ab5ccba26e361cea7.setContent(html_3fb69a131e814f3fb14789c20c20fa24);
+        
+
+        marker_52dff517e6eb4c6190da45c7d582ed3c.bindPopup(popup_d2febcbb869c4a3ab5ccba26e361cea7)
+        ;
+
+        
+    
+    
+            var marker_03ed2c86fede41feab06ec451df41da9 = L.marker(
+                [41.0799898, -85.1386015],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_85a0d775ca484864a7abcdd5efabf58b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84c2e6fcd55241cfa71ef9d77677bb17 = $(`<div id="html_84c2e6fcd55241cfa71ef9d77677bb17" style="width: 100.0%; height: 100.0%;">Hoosiers530: @AssemblyCall @JayBilas -Most college basketball pundits last week: Yeah archie is just not working i dont know wha… https://t.co/0dX7gywEXO</div>`)[0];
+            popup_85a0d775ca484864a7abcdd5efabf58b.setContent(html_84c2e6fcd55241cfa71ef9d77677bb17);
+        
+
+        marker_03ed2c86fede41feab06ec451df41da9.bindPopup(popup_85a0d775ca484864a7abcdd5efabf58b)
+        ;
+
+        
+    
+    
+            var marker_3a8bedcc9bfe41f598909694e5a950b6 = L.marker(
+                [40.3270127, -86.1746933],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_b32edbdd820f4de38533e2bbacb0ac17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbf58a101b594848b8f1fcd757dfb579 = $(`<div id="html_bbf58a101b594848b8f1fcd757dfb579" style="width: 100.0%; height: 100.0%;">IUBBGuy: How to get attention as a college basketball analyst ⬇️  Say something about #iubb and/or their fan base</div>`)[0];
+            popup_b32edbdd820f4de38533e2bbacb0ac17.setContent(html_bbf58a101b594848b8f1fcd757dfb579);
+        
+
+        marker_3a8bedcc9bfe41f598909694e5a950b6.bindPopup(popup_b32edbdd820f4de38533e2bbacb0ac17)
+        ;
+
+        
+    
+    
+            var marker_dba5d0a891ff4350ac4996bc1a0835e3 = L.marker(
+                [35.2270869, -80.8431268],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_a3cc4c4a771a4de99efda260e1dd778b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae4fb0a317cb4164b4d932ba53f46219 = $(`<div id="html_ae4fb0a317cb4164b4d932ba53f46219" style="width: 100.0%; height: 100.0%;">royallote: Best program in college basketball history</div>`)[0];
+            popup_a3cc4c4a771a4de99efda260e1dd778b.setContent(html_ae4fb0a317cb4164b4d932ba53f46219);
+        
+
+        marker_dba5d0a891ff4350ac4996bc1a0835e3.bindPopup(popup_a3cc4c4a771a4de99efda260e1dd778b)
+        ;
+
+        
+    
+    
+            var marker_888afb4379f949f4b9ede4b1f85d8154 = L.marker(
+                [36.1662859, -115.149225],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_36dafa471e6d4793a4a5bf4a8424cff7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ff651b40cf748ef9c027ac079b26389 = $(`<div id="html_6ff651b40cf748ef9c027ac079b26389" style="width: 100.0%; height: 100.0%;">STNSportsApp: 🎙NEW PODCAST🎙  March is here, and that means college basketball.  Here&#39;s everything happening at Station Casinos fo… https://t.co/0ak0DXOe4y</div>`)[0];
+            popup_36dafa471e6d4793a4a5bf4a8424cff7.setContent(html_6ff651b40cf748ef9c027ac079b26389);
+        
+
+        marker_888afb4379f949f4b9ede4b1f85d8154.bindPopup(popup_36dafa471e6d4793a4a5bf4a8424cff7)
+        ;
+
+        
+    
+    
+            var marker_bc3e17503dc3460193b1bcf1b4e0dd38 = L.marker(
+                [38.265121, -85.723562],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_5f49ee3faf254029a3ad1f0a5c120bda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be00c245c5f7407dbc437e0beea87a6a = $(`<div id="html_be00c245c5f7407dbc437e0beea87a6a" style="width: 100.0%; height: 100.0%;">jeb_center: Gabby Decamillis dreams of becoming a college basketball player one day and moving to Hawaii to sell smoothies out… https://t.co/qnKYsYdOUk</div>`)[0];
+            popup_5f49ee3faf254029a3ad1f0a5c120bda.setContent(html_be00c245c5f7407dbc437e0beea87a6a);
+        
+
+        marker_bc3e17503dc3460193b1bcf1b4e0dd38.bindPopup(popup_5f49ee3faf254029a3ad1f0a5c120bda)
+        ;
+
+        
+    
+    
+            var marker_a1babb069fd94487984a2ca275afdf81 = L.marker(
+                [36.1662859, -115.149225],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_19182ae757524e359399aea2821708f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0200936d2e264788bb0f6f8d8087b9c9 = $(`<div id="html_0200936d2e264788bb0f6f8d8087b9c9" style="width: 100.0%; height: 100.0%;">STNSportsApp: 🎙NEW PODCAST🎙   March is here, and that means college basketball.   Here&#39;s everything happening at Station Casinos… https://t.co/H3CNQ0CK4m</div>`)[0];
+            popup_19182ae757524e359399aea2821708f0.setContent(html_0200936d2e264788bb0f6f8d8087b9c9);
+        
+
+        marker_a1babb069fd94487984a2ca275afdf81.bindPopup(popup_19182ae757524e359399aea2821708f0)
+        ;
+
+        
+    
+    
+            var marker_0250a7ae0dd145d7b1a8d35173c116d6 = L.marker(
+                [40.0757384, -74.4041622],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_854514936ec54c759fc881900b55682d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdc9e281c81341c4b3dbfc313c02bee7 = $(`<div id="html_bdc9e281c81341c4b3dbfc313c02bee7" style="width: 100.0%; height: 100.0%;">Giavotella_170: @Thetruth666222 @boxingscene They were competing with UFC, College Basketball tourneys and a better card on DAZN fe… https://t.co/UcWqDTKdyQ</div>`)[0];
+            popup_854514936ec54c759fc881900b55682d.setContent(html_bdc9e281c81341c4b3dbfc313c02bee7);
+        
+
+        marker_0250a7ae0dd145d7b1a8d35173c116d6.bindPopup(popup_854514936ec54c759fc881900b55682d)
+        ;
+
+        
+    
+    
+            var marker_dce27fd0ef484d20a2387cf812ef0804 = L.marker(
+                [39.9523993, -75.1635899],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_3af5ac4fee744f06af815e539d6efc9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f4c4958216d4d93b20e1938339e8843 = $(`<div id="html_6f4c4958216d4d93b20e1938339e8843" style="width: 100.0%; height: 100.0%;">Steeee___: haven’t watched 1 minute of college basketball this year, submitted a few brackets, why? 1. it’s obligatory 2. Yolo</div>`)[0];
+            popup_3af5ac4fee744f06af815e539d6efc9a.setContent(html_6f4c4958216d4d93b20e1938339e8843);
+        
+
+        marker_dce27fd0ef484d20a2387cf812ef0804.bindPopup(popup_3af5ac4fee744f06af815e539d6efc9a)
+        ;
+
+        
+    
+    
+            var marker_58b5cf239ef04ec79cc51a1cca1127ca = L.marker(
+                [45.278752, -66.058044],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_d917676e0ae5488fa18f8aa815744073 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ed2b8d077114657897d4ad74f0917a8 = $(`<div id="html_5ed2b8d077114657897d4ad74f0917a8" style="width: 100.0%; height: 100.0%;">Rod06437967: @NathanZegura i’m waiting for the segment on college basketball?… We had two of them yesterday? LOL</div>`)[0];
+            popup_d917676e0ae5488fa18f8aa815744073.setContent(html_5ed2b8d077114657897d4ad74f0917a8);
+        
+
+        marker_58b5cf239ef04ec79cc51a1cca1127ca.bindPopup(popup_d917676e0ae5488fa18f8aa815744073)
+        ;
+
+        
+    
+    
+            var marker_f09f15bce2dd446cbbadc367931f2cd5 = L.marker(
+                [40.3270127, -86.1746933],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_14abc85051ba42bfb8d4b842dbc87b42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1bf3e5735aa405f9a83bb52fdb56fb1 = $(`<div id="html_d1bf3e5735aa405f9a83bb52fdb56fb1" style="width: 100.0%; height: 100.0%;">VisitIndiana: These Are Indiana&#39;s Greatest College Basketball Players of All-Time - 𝟑𝟐-𝟏𝟕 🏀  See who made it. ⬇️  RANKINGS:… https://t.co/hPrt2wCJns</div>`)[0];
+            popup_14abc85051ba42bfb8d4b842dbc87b42.setContent(html_d1bf3e5735aa405f9a83bb52fdb56fb1);
+        
+
+        marker_f09f15bce2dd446cbbadc367931f2cd5.bindPopup(popup_14abc85051ba42bfb8d4b842dbc87b42)
+        ;
+
+        
+    
+    
+            var marker_dd61e333be3444cfa2adb5882dd576b3 = L.marker(
+                [29.7589382, -95.3676974],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_270d30e5822e47849921607ae09f958a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ba966e37c574a569bfb82fbd41600fa = $(`<div id="html_7ba966e37c574a569bfb82fbd41600fa" style="width: 100.0%; height: 100.0%;">RedheadedAg: I’ve barely watched any college basketball this year.  Got to do some due diligence in my research efforts for the bracket</div>`)[0];
+            popup_270d30e5822e47849921607ae09f958a.setContent(html_7ba966e37c574a569bfb82fbd41600fa);
+        
+
+        marker_dd61e333be3444cfa2adb5882dd576b3.bindPopup(popup_270d30e5822e47849921607ae09f958a)
+        ;
+
+        
+    
+    
+            var marker_d4f723959e5a40c892cf61b06436dd17 = L.marker(
+                [32.65, 46.15],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_03cd65fc332140cba31de4380e701e02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdf7e979f2ae4720bad81548da35673e = $(`<div id="html_bdf7e979f2ae4720bad81548da35673e" style="width: 100.0%; height: 100.0%;">camkelly13: I really really like Brad Stevens. Have always thought college basketball fan’s obsession with him is kind of weird… https://t.co/lph5QlWdLk</div>`)[0];
+            popup_03cd65fc332140cba31de4380e701e02.setContent(html_bdf7e979f2ae4720bad81548da35673e);
+        
+
+        marker_d4f723959e5a40c892cf61b06436dd17.bindPopup(popup_03cd65fc332140cba31de4380e701e02)
+        ;
+
+        
+    
+    
+            var marker_353a89064e78431da2f6249bb3ae393d = L.marker(
+                [39.4667025, -87.4139119],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_c6b9d87388034c56b883169345f0d212 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfe8de71a8e34d5daaece1ec7a0df0a2 = $(`<div id="html_bfe8de71a8e34d5daaece1ec7a0df0a2" style="width: 100.0%; height: 100.0%;">SeeYouInTH: Who are the top 68 men’s college basketball players from Indiana? @VisitIndiana has teamed up with the @HoopsHall t… https://t.co/FDcJmR4XHE</div>`)[0];
+            popup_c6b9d87388034c56b883169345f0d212.setContent(html_bfe8de71a8e34d5daaece1ec7a0df0a2);
+        
+
+        marker_353a89064e78431da2f6249bb3ae393d.bindPopup(popup_c6b9d87388034c56b883169345f0d212)
+        ;
+
+        
+    
+    
+            var marker_8cb94b6b328941ddb2e78dcf7f299b47 = L.marker(
+                [36.1662859, -115.149225],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_9053e9aaf6214587b40cc79d26ebf41a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c34991d8df24c238a7d067301c7c31e = $(`<div id="html_3c34991d8df24c238a7d067301c7c31e" style="width: 100.0%; height: 100.0%;">thejudgepicks: College Basketball continues to be a monster for us, closed out another NCAAB sweep yesterday!  12-3 the last15 NCA… https://t.co/s9G0olIXeN</div>`)[0];
+            popup_9053e9aaf6214587b40cc79d26ebf41a.setContent(html_3c34991d8df24c238a7d067301c7c31e);
+        
+
+        marker_8cb94b6b328941ddb2e78dcf7f299b47.bindPopup(popup_9053e9aaf6214587b40cc79d26ebf41a)
+        ;
+
+        
+    
+    
+            var marker_0d328d1e44dc4b37ba10fd2b148d3cde = L.marker(
+                [18.12854835, -66.1107823686239],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_d619590c31204cbb9874c5731f582963 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b45bf7b9fb9744af8a179b614bcbe898 = $(`<div id="html_b45bf7b9fb9744af8a179b614bcbe898" style="width: 100.0%; height: 100.0%;">thewardenpicks: College Basketball is on a different level right now!!  14-1 NCAAB Run  March Madness ($150): https://t.co/lO42QrrC3y</div>`)[0];
+            popup_d619590c31204cbb9874c5731f582963.setContent(html_b45bf7b9fb9744af8a179b614bcbe898);
+        
+
+        marker_0d328d1e44dc4b37ba10fd2b148d3cde.bindPopup(popup_d619590c31204cbb9874c5731f582963)
+        ;
+
+        
+    
+    
+            var marker_19729478e5b84c65ab2b12d41a7c9dd3 = L.marker(
+                [39.2908816, -76.610759],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_eda59103ae1c4a5297b90f904ed8973e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99a41ceaba0f40868f45bad4bd1c8bf5 = $(`<div id="html_99a41ceaba0f40868f45bad4bd1c8bf5" style="width: 100.0%; height: 100.0%;">elitebrady2020: Haven’t watched a single minute of college basketball this year. What are some good teams besides Gonzaga ?  Filling out my brackets</div>`)[0];
+            popup_eda59103ae1c4a5297b90f904ed8973e.setContent(html_99a41ceaba0f40868f45bad4bd1c8bf5);
+        
+
+        marker_19729478e5b84c65ab2b12d41a7c9dd3.bindPopup(popup_eda59103ae1c4a5297b90f904ed8973e)
+        ;
+
+        
+    
+    
+            var marker_f74249abf08d40ea97df0f3d6acbcdd9 = L.marker(
+                [40.7281575, -74.0776417],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_fff4285e2ce74756b05a53b318e5814c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c9057b42fe44c06a1948cb915714c07 = $(`<div id="html_8c9057b42fe44c06a1948cb915714c07" style="width: 100.0%; height: 100.0%;">MoneyI____: Don’t matter what level of College basketball you play D1 D2 D3 NAIA find a system you’re comfortable in and ball out 🔥‼️‼️</div>`)[0];
+            popup_fff4285e2ce74756b05a53b318e5814c.setContent(html_8c9057b42fe44c06a1948cb915714c07);
+        
+
+        marker_f74249abf08d40ea97df0f3d6acbcdd9.bindPopup(popup_fff4285e2ce74756b05a53b318e5814c)
+        ;
+
+        
+    
+    
+            var marker_97a1d5ab361c4d7494470b10c23c9c19 = L.marker(
+                [39.1014537, -84.5124602],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_615bd370f61544048319fcc9acd530b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ce3a7900c774987b1f638bda14da044 = $(`<div id="html_5ce3a7900c774987b1f638bda14da044" style="width: 100.0%; height: 100.0%;">FOX19Joe: One of the best three-point shooters in college basketball is coming back to Xavier for another season.</div>`)[0];
+            popup_615bd370f61544048319fcc9acd530b4.setContent(html_5ce3a7900c774987b1f638bda14da044);
+        
+
+        marker_97a1d5ab361c4d7494470b10c23c9c19.bindPopup(popup_615bd370f61544048319fcc9acd530b4)
+        ;
+
+        
+    
+    
+            var marker_ba56822115124e0390cddd38f630f592 = L.marker(
+                [44.6471761, -100.348761],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_90e08506356743dbb00be877b96fc40b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c762481a151440cc8790b113cb047775 = $(`<div id="html_c762481a151440cc8790b113cb047775" style="width: 100.0%; height: 100.0%;">scootsie34: If there&#39;s anything I&#39;ve learned in watching old college basketball games for the past year, it&#39;s that the Purdue/I… https://t.co/EXitLvKInl</div>`)[0];
+            popup_90e08506356743dbb00be877b96fc40b.setContent(html_c762481a151440cc8790b113cb047775);
+        
+
+        marker_ba56822115124e0390cddd38f630f592.bindPopup(popup_90e08506356743dbb00be877b96fc40b)
+        ;
+
+        
+    
+    
+            var marker_216a1f830b184b4cbd1d497e051f7433 = L.marker(
+                [42.8867166, -78.8783922],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_dfb84d4161f644d2bd41cede28812906 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8db5990575b94ac78023febd6f4dcac7 = $(`<div id="html_8db5990575b94ac78023febd6f4dcac7" style="width: 100.0%; height: 100.0%;">fouryearbrett: I don’t know shit about college basketball but my bracket is definitely winning</div>`)[0];
+            popup_dfb84d4161f644d2bd41cede28812906.setContent(html_8db5990575b94ac78023febd6f4dcac7);
+        
+
+        marker_216a1f830b184b4cbd1d497e051f7433.bindPopup(popup_dfb84d4161f644d2bd41cede28812906)
+        ;
+
+        
+    
+    
+            var marker_5edc4d95c32641769cc37de19256118f = L.marker(
+                [43.6211955, -84.6824346],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_4c27ce521f6b4f8688edd4ac8b36e4a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9af75f504d764043ba34f657dfb9bd9b = $(`<div id="html_9af75f504d764043ba34f657dfb9bd9b" style="width: 100.0%; height: 100.0%;">Anferrrney: @rodger @ringer Damn I thought this was Richard Sherman announcing where he was going.. just college basketball 😐</div>`)[0];
+            popup_4c27ce521f6b4f8688edd4ac8b36e4a3.setContent(html_9af75f504d764043ba34f657dfb9bd9b);
+        
+
+        marker_5edc4d95c32641769cc37de19256118f.bindPopup(popup_4c27ce521f6b4f8688edd4ac8b36e4a3)
+        ;
+
+        
+    
+    
+            var marker_51f533898d7b437fa3647ba36691e631 = L.marker(
+                [27.7567667, -81.4639835],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_1f2fe5c2ee3f4afaa11ff143a6e50cfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e33a124f0d4464b9a11705728da208b = $(`<div id="html_0e33a124f0d4464b9a11705728da208b" style="width: 100.0%; height: 100.0%;">ZASports1: just watched the @DogWalkBarstool March Madness draft. @BarstoolReags is an idiot. Zero college basketball credibility.</div>`)[0];
+            popup_1f2fe5c2ee3f4afaa11ff143a6e50cfc.setContent(html_0e33a124f0d4464b9a11705728da208b);
+        
+
+        marker_51f533898d7b437fa3647ba36691e631.bindPopup(popup_1f2fe5c2ee3f4afaa11ff143a6e50cfc)
+        ;
+
+        
+    
+    
+            var marker_ef52e050e2ed424f8ff68ae8fe72601a = L.marker(
+                [39.3342745, -76.4394057],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_bdc088b36e494e39af770031c26f9543 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bc42fff23644ea2b3845c8bb1ad1b22 = $(`<div id="html_1bc42fff23644ea2b3845c8bb1ad1b22" style="width: 100.0%; height: 100.0%;">KxNG_KOOPA613: Haven&#39;t Been Watching Much College Basketball This Year But I Think I&#39;ll Mess Around With This #MarchMadness Bracket.</div>`)[0];
+            popup_bdc088b36e494e39af770031c26f9543.setContent(html_1bc42fff23644ea2b3845c8bb1ad1b22);
+        
+
+        marker_ef52e050e2ed424f8ff68ae8fe72601a.bindPopup(popup_bdc088b36e494e39af770031c26f9543)
+        ;
+
+        
+    
+    
+            var marker_8d89feb03fda4a83b556207888714f3f = L.marker(
+                [43.255205, -79.868202],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_db90cb103bf649e98073fe571929bb90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f41a2ca0cd9472888bf667c5b511235 = $(`<div id="html_6f41a2ca0cd9472888bf667c5b511235" style="width: 100.0%; height: 100.0%;">Em_Lisson11: @Liz_Niton That was my entire morning. Ready to have my heart broken by college basketball yet again!</div>`)[0];
+            popup_db90cb103bf649e98073fe571929bb90.setContent(html_6f41a2ca0cd9472888bf667c5b511235);
+        
+
+        marker_8d89feb03fda4a83b556207888714f3f.bindPopup(popup_db90cb103bf649e98073fe571929bb90)
+        ;
+
+        
+    
+    
+            var marker_b3f7e82558bd47b4b6a014207afcf986 = L.marker(
+                [40.4416941, -79.9900861],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_03f961c12bb44827bca34be2240b3b75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bd651a6bc5046438a4bece777118e82 = $(`<div id="html_0bd651a6bc5046438a4bece777118e82" style="width: 100.0%; height: 100.0%;">viewfromthezoo: Herb Pope is unquestionably my favorite non Pitt college basketball player ever.</div>`)[0];
+            popup_03f961c12bb44827bca34be2240b3b75.setContent(html_0bd651a6bc5046438a4bece777118e82);
+        
+
+        marker_b3f7e82558bd47b4b6a014207afcf986.bindPopup(popup_03f961c12bb44827bca34be2240b3b75)
+        ;
+
+        
+    
+    
+            var marker_722dbdcd8dc14f7d819bceed5120a9ca = L.marker(
+                [40.0757384, -74.4041622],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_9fcb75813cbd4b69889f0b978fe5e68b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8e375e7b62f46c38aca45a04d249e52 = $(`<div id="html_e8e375e7b62f46c38aca45a04d249e52" style="width: 100.0%; height: 100.0%;">ggiombarrese: Very proud of my first-ever Top 10 in The Jerome, the nation&#39;s premier college basketball selection contest. Can&#39;t… https://t.co/g4DMx7PrkW</div>`)[0];
+            popup_9fcb75813cbd4b69889f0b978fe5e68b.setContent(html_e8e375e7b62f46c38aca45a04d249e52);
+        
+
+        marker_722dbdcd8dc14f7d819bceed5120a9ca.bindPopup(popup_9fcb75813cbd4b69889f0b978fe5e68b)
+        ;
+
+        
+    
+    
+            var marker_6fb66ebeaa3642508e32cccdc768327f = L.marker(
+                [39.977818, -74.3319287],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_5c1c647921a241d4b25d7a03eadd30a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_468cc53b8fee4ff9a7034f9a5099492e = $(`<div id="html_468cc53b8fee4ff9a7034f9a5099492e" style="width: 100.0%; height: 100.0%;">JimDonaldsonJr: @buonocore_peter @BillKoch25 @PCFriarsmbb It&#39;s a revolving door now in college basketball. Kids transfer out, kids transfer in.</div>`)[0];
+            popup_5c1c647921a241d4b25d7a03eadd30a9.setContent(html_468cc53b8fee4ff9a7034f9a5099492e);
+        
+
+        marker_6fb66ebeaa3642508e32cccdc768327f.bindPopup(popup_5c1c647921a241d4b25d7a03eadd30a9)
+        ;
+
+        
+    
+    
+            var marker_0d45cec5710c47589b0d6840bd99e5f6 = L.marker(
+                [47.6038321, -122.3300624],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_13dc7af8f6fa4e48989c39c8ff01ff90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55a56135b5aa470b8a0d99e30e0f64d9 = $(`<div id="html_55a56135b5aa470b8a0d99e30e0f64d9" style="width: 100.0%; height: 100.0%;">RSMITHWA: @bcondotta Did Hudson play college basketball? Is he a converted tight end or defensive lineman? If not, the Hawks probably won’t like him.</div>`)[0];
+            popup_13dc7af8f6fa4e48989c39c8ff01ff90.setContent(html_55a56135b5aa470b8a0d99e30e0f64d9);
+        
+
+        marker_0d45cec5710c47589b0d6840bd99e5f6.bindPopup(popup_13dc7af8f6fa4e48989c39c8ff01ff90)
+        ;
+
+        
+    
+    
+            var marker_b8b29b927e604ce985f088d846d36466 = L.marker(
+                [40.7306458, -73.9866136],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_6e00fa099eca443fb52ec45905e14afa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9dc2c915a094fd9a5885da4e77910a8 = $(`<div id="html_e9dc2c915a094fd9a5885da4e77910a8" style="width: 100.0%; height: 100.0%;">VintageAnchor: .@nytimes bestselling author @JFeinsteinBooks returns to his first love—college basketball—with a fascinating journ… https://t.co/5MZgsCNN0U</div>`)[0];
+            popup_6e00fa099eca443fb52ec45905e14afa.setContent(html_e9dc2c915a094fd9a5885da4e77910a8);
+        
+
+        marker_b8b29b927e604ce985f088d846d36466.bindPopup(popup_6e00fa099eca443fb52ec45905e14afa)
+        ;
+
+        
+    
+    
+            var marker_c8508411948a4021983e12c714435c76 = L.marker(
+                [36.29885175, -82.3591933141095],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_661e85e814374b5d99a8b0cdbfb2e490 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81c6f8d4c41442478ce347012f229e17 = $(`<div id="html_81c6f8d4c41442478ce347012f229e17" style="width: 100.0%; height: 100.0%;">SoccerInsider: College basketball news: George Mason has fired Dave Paulsen after 6 seasons &amp;amp; 95-91 record. Four winning campaigns… https://t.co/04BMUy0kum</div>`)[0];
+            popup_661e85e814374b5d99a8b0cdbfb2e490.setContent(html_81c6f8d4c41442478ce347012f229e17);
+        
+
+        marker_c8508411948a4021983e12c714435c76.bindPopup(popup_661e85e814374b5d99a8b0cdbfb2e490)
+        ;
+
+        
+    
+    
+            var marker_1908a6035a5d4484b1dc7861ffd47107 = L.marker(
+                [39.100105, -94.5781416],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_3c2b09c3b92f4bcfad7f18e13df36a86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de49162751b34bb99a1bc19db521443c = $(`<div id="html_de49162751b34bb99a1bc19db521443c" style="width: 100.0%; height: 100.0%;">Magic_Max98: Time to find some college basketball winners.   (I forgot how to do “B” Bubble letter) https://t.co/uWS9fGVJoe</div>`)[0];
+            popup_3c2b09c3b92f4bcfad7f18e13df36a86.setContent(html_de49162751b34bb99a1bc19db521443c);
+        
+
+        marker_1908a6035a5d4484b1dc7861ffd47107.bindPopup(popup_3c2b09c3b92f4bcfad7f18e13df36a86)
+        ;
+
+        
+    
+    
+            var marker_6ca4597022e74e25adc60b59e9130b04 = L.marker(
+                [39.7837304, -100.4458825],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_17e1a2561a784ddab39f2dc63b95d37f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24ce6eb61aac44018a3ad9271286ea00 = $(`<div id="html_24ce6eb61aac44018a3ad9271286ea00" style="width: 100.0%; height: 100.0%;">ctroberts25: @marchmadness @BoilerBall Best arena in college basketball!</div>`)[0];
+            popup_17e1a2561a784ddab39f2dc63b95d37f.setContent(html_24ce6eb61aac44018a3ad9271286ea00);
+        
+
+        marker_6ca4597022e74e25adc60b59e9130b04.bindPopup(popup_17e1a2561a784ddab39f2dc63b95d37f)
+        ;
+
+        
+    
+    
+            var marker_4bca106774c24b0197457a17f21bad03 = L.marker(
+                [40.2273316, -74.6532133],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_983bebe3e1f544e4854188e86e94887d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efdaa3bd3fd24dc2a1d86091bda52715 = $(`<div id="html_efdaa3bd3fd24dc2a1d86091bda52715" style="width: 100.0%; height: 100.0%;">GBDudes: The 3-2 Zone (A College Basketball Podcast) : March Madness Extravaganza; Part 1 #CBB #MarchMadness #SEC #Big12… https://t.co/DZaM0oQAAg</div>`)[0];
+            popup_983bebe3e1f544e4854188e86e94887d.setContent(html_efdaa3bd3fd24dc2a1d86091bda52715);
+        
+
+        marker_4bca106774c24b0197457a17f21bad03.bindPopup(popup_983bebe3e1f544e4854188e86e94887d)
+        ;
+
+        
+    
+    
+            var marker_6351cbc1d33c4dc2b0967db66b9b466d = L.marker(
+                [41.75503045, -87.5792366573384],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_babb2ff2b6cc40babb451a7978200013 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_135a9badd23748689f4365730e19186a = $(`<div id="html_135a9badd23748689f4365730e19186a" style="width: 100.0%; height: 100.0%;">Birdbrains_Pod: The 3-2 Zone (A College Basketball Podcast) : March Madness Extravaganza; Part 1 #CBB #MarchMadness #SEC #Big12… https://t.co/61brNL2Ha9</div>`)[0];
+            popup_babb2ff2b6cc40babb451a7978200013.setContent(html_135a9badd23748689f4365730e19186a);
+        
+
+        marker_6351cbc1d33c4dc2b0967db66b9b466d.bindPopup(popup_babb2ff2b6cc40babb451a7978200013)
+        ;
+
+        
+    
+    
+            var marker_bbcbf62dbc69461688b15dc260481069 = L.marker(
+                [37.5726028, -85.1551411],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_1256298d06624c638a5597bd89d9d444 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86ebe6cf3a87425481614ebd5177212c = $(`<div id="html_86ebe6cf3a87425481614ebd5177212c" style="width: 100.0%; height: 100.0%;">KY_MEDTCH: @TruUKFan I’ve watched less college basketball this year than any year that I can remember. I’m willing to bet that… https://t.co/SHUMFABnuR</div>`)[0];
+            popup_1256298d06624c638a5597bd89d9d444.setContent(html_86ebe6cf3a87425481614ebd5177212c);
+        
+
+        marker_bbcbf62dbc69461688b15dc260481069.bindPopup(popup_1256298d06624c638a5597bd89d9d444)
+        ;
+
+        
+    
+    
+            var marker_10a611ce5da64d2ebf475982ec451387 = L.marker(
+                [37.1232245, -78.4927721],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_c6636e51cef048f8a09af1e982dda320 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_148ede5da58a44fb9ed4e36f74defbc1 = $(`<div id="html_148ede5da58a44fb9ed4e36f74defbc1" style="width: 100.0%; height: 100.0%;">warneagle: I don&#39;t think I watched a non-Auburn college basketball game this year (and only watched maybe a third of Auburn&#39;s)… https://t.co/vqytXKhuZT</div>`)[0];
+            popup_c6636e51cef048f8a09af1e982dda320.setContent(html_148ede5da58a44fb9ed4e36f74defbc1);
+        
+
+        marker_10a611ce5da64d2ebf475982ec451387.bindPopup(popup_c6636e51cef048f8a09af1e982dda320)
+        ;
+
+        
+    
+    
+            var marker_7ce0b4c8403e48f09a4bcbab7e5458de = L.marker(
+                [38.8949549, -77.0366456],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_6cc363928a5e4dfc94bee65273156f0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_410f889008864a2d8061f40b4b3a6a4f = $(`<div id="html_410f889008864a2d8061f40b4b3a6a4f" style="width: 100.0%; height: 100.0%;">MadisonSiriusXM: On this day in 1948, college basketball coach C. Vivian Stringer was born in Pennsylvania. She is one of the greate… https://t.co/GuRIfdY5fI</div>`)[0];
+            popup_6cc363928a5e4dfc94bee65273156f0c.setContent(html_410f889008864a2d8061f40b4b3a6a4f);
+        
+
+        marker_7ce0b4c8403e48f09a4bcbab7e5458de.bindPopup(popup_6cc363928a5e4dfc94bee65273156f0c)
+        ;
+
+        
+    
+    
+            var marker_f080a1bd32bd42639c1f0aad2a6e5bb9 = L.marker(
+                [32.2218917, -110.9262353],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_ccbde8e240e2481ca0b9f1e5f92e2bd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f4289c451b243b6ba69e123e540033b = $(`<div id="html_7f4289c451b243b6ba69e123e540033b" style="width: 100.0%; height: 100.0%;">venkatinthehat: way too into college basketball and obsessed with manspaining bf, entered an office bracket pool because it would be &#34;fun&#34; gf</div>`)[0];
+            popup_ccbde8e240e2481ca0b9f1e5f92e2bd2.setContent(html_7f4289c451b243b6ba69e123e540033b);
+        
+
+        marker_f080a1bd32bd42639c1f0aad2a6e5bb9.bindPopup(popup_ccbde8e240e2481ca0b9f1e5f92e2bd2)
+        ;
+
+        
+    
+    
+            var marker_b26089166589423797ca28be56acaf82 = L.marker(
+                [36.29885175, -82.3591933141095],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_8a93669888c44de2be4e2bf119b55f58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3daabd5b87764823b5af0134dedca773 = $(`<div id="html_3daabd5b87764823b5af0134dedca773" style="width: 100.0%; height: 100.0%;">BenStandig: College basketball tweet: George Mason has fired men&#39;s basketball coach Dave Paulsen, per sources. Paulsen went 95-… https://t.co/whTt28Lj6q</div>`)[0];
+            popup_8a93669888c44de2be4e2bf119b55f58.setContent(html_3daabd5b87764823b5af0134dedca773);
+        
+
+        marker_b26089166589423797ca28be56acaf82.bindPopup(popup_8a93669888c44de2be4e2bf119b55f58)
+        ;
+
+        
+    
+    
+            var marker_be7e3a2b78ba42e585cdbac9996df0a4 = L.marker(
+                [38.8949549, -77.0366456],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_78a57925ccc54ed89e790ee8c00ea810 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db34972a2b4b4069a4e19a7b870faee6 = $(`<div id="html_db34972a2b4b4069a4e19a7b870faee6" style="width: 100.0%; height: 100.0%;">washingtonpost: NCAA tournament bracket picks from college basketball’s top experts https://t.co/SZihiYfHqx</div>`)[0];
+            popup_78a57925ccc54ed89e790ee8c00ea810.setContent(html_db34972a2b4b4069a4e19a7b870faee6);
+        
+
+        marker_be7e3a2b78ba42e585cdbac9996df0a4.bindPopup(popup_78a57925ccc54ed89e790ee8c00ea810)
+        ;
+
+        
+    
+    
+            var marker_b50636025f5f4c1c8845902a19dcca0a = L.marker(
+                [36.9225615, -121.8517849],
+                {}
+            ).addTo(map_570dc3b9716149f8b2b811c5118fc866);
+        
+    
+        var popup_62e366c46fa8441bb3523683608d615d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1acd90191326484cbc16603b1d407921 = $(`<div id="html_1acd90191326484cbc16603b1d407921" style="width: 100.0%; height: 100.0%;">clubtrillion: @JonRothstein College basketball. Where the unexpected becomes the ordinary. Unless it&#39;s believing a guy might be w… https://t.co/FqIk36AFLF</div>`)[0];
+            popup_62e366c46fa8441bb3523683608d615d.setContent(html_1acd90191326484cbc16603b1d407921);
+        
+
+        marker_b50636025f5f4c1c8845902a19dcca0a.bindPopup(popup_62e366c46fa8441bb3523683608d615d)
+        ;
+
+        
+    
+</script>
